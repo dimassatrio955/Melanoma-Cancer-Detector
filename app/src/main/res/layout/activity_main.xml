@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ambil_kamera"
+        android:textColor="#FF0000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/paduan_oke"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/mCameraButton"
+        app:layout_constraintStart_toStartOf="@+id/mCameraButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galeri"
+        android:textSize="12sp"
+        android:id="@+id/textView2"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/setting_oke"
+        android:layout_marginBottom="16dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toStartOf="@+id/mGalleryButton"
+        app:layout_constraintEnd_toEndOf="@+id/mGalleryButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scaner"
+        android:textSize="12sp"
+        android:id="@+id/textView3"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/Exit"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintStart_toStartOf="@+id/camera_butto"
+        app:layout_constraintEnd_toEndOf="@+id/camera_butto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Panduan"
+        android:textSize="12sp"
+        android:id="@+id/textView4"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintStart_toStartOf="@+id/paduan_oke"
+        app:layout_constraintEnd_toEndOf="@+id/paduan_oke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Setting"
+        android:textSize="12sp"
+        android:id="@+id/textView5"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/setting_oke"
+        app:layout_constraintStart_toStartOf="@+id/setting_oke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Keluar"
+        android:textSize="12sp"
+        android:id="@+id/textView6"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintStart_toStartOf="@+id/Exit"
+        app:layout_constraintEnd_toEndOf="@+id/Exit" />
+
+    <ImageView
+        android:id="@+id/mPhotoImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/descriptionImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/darker_gray"
+        android:background="@color/white"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/mDetectButton"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/mDetectButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/buttonDiagnose"
+        app:layout_constraintBottom_toTopOf="@+id/mResultTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/ic_red_scan_botton" />
+
+    <TextView
+        android:text="@string/defaultImage"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:id="@+id/mResultTextView"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/mGalleryButton"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageButton
+        android:id="@+id/mCameraButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/camera"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/mGalleryButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/ic_red_camera" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@mipmap/ic_red_panduan"
+        android:id="@+id/paduan_oke"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/mCameraButton"
+        app:layout_constraintStart_toStartOf="@+id/mCameraButton"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/Panduan" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@mipmap/ic_red_setting"
+        android:id="@+id/setting_oke"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/mGalleryButton"
+        app:layout_constraintStart_toStartOf="@+id/mGalleryButton"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/Setting" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@mipmap/ic_red_exit"
+        android:id="@+id/Exit"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/camera_butto"
+        app:layout_constraintStart_toStartOf="@+id/camera_butto"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/Keluar" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@mipmap/ic_red_gallery"
+        android:id="@+id/mGalleryButton"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/mDetectButton"
+        app:layout_constraintStart_toStartOf="@+id/mDetectButton"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/galeri" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@mipmap/ic_red_scan"
+        android:id="@+id/camera_butto"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mGalleryButton"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/scaner" />
+</androidx.constraintlayout.widget.ConstraintLayout>

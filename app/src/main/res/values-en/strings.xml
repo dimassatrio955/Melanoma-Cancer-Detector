@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Melanoma Cancer Detector</string>
+    <string name="buttonSelectPhoto">Select Photo</string>
+    <string name="buttonTakePhoto">Start Camera</string>
+    <string name="buttonDiagnose">Detect</string>
+    <string name="defaultImage">Default image set now...</string>
+    <string name="descriptionImage">View for displaying image</string>
+    <string name="scanner_real_time">scannerRealTime</string>
+    <string name="Panduan">Guide</string>
+    <string name="Setting">Setting</string>
+    <string name="Keluar">Exit</string>
+    <string name="ambil_kamera">Take Camera</string>
+    <string name="galeri">HP Gallery</string>
+    <string name="scaner">Scan Camera</string>
+    <string name="scanner">Scan Camera</string>
+    <string name="camera">camera</string>
+    <string name="thank_you">Language</string>
+    <string name="pilih_bahasa">Select Language</string>
+    <string name="pilih">Select</string>
+    <string name="terdeteksi_penyakit_kulit">Melanoma Skin Disease Detected</string>
+    <string name="kulit_normal">Normal Skin</string>
+    <string name="terdeteksi">Detection</string>
+    <string name="ambil_kamera_g">"This feature is useful if you say you want to take a photo of a skin sample that is suspected of having melanoma cancer using the camera directly. If the application detects less than 50% of melanoma cancer you can scan up to 3 times to be more certain, and that too for skin that is detected as normal below 50%."</string>
+    <string name="galeri_g">This feature is useful for those of you who say you want to take a photo of a skin sample that is suspected of having melanoma cancer if you save it in your cellphone gallery. If the application detects less than 50% of melanoma cancer you can scan up to 3 times to be more certain, and that too for skin that is detected as normal below 50%.</string>
+    <string name="scan_g">A feature used for scanners directly using the camera. You only need to point the camera at a skin sample that is suspected of having melanoma cancer.</string>
+    <string name="setting_g">In the settings there are 2 features such as dark mode to change the application theme and language change to change to the language you want to use.</string>
+</resources>

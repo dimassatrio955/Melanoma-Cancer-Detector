@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Melanoma Cancer Detector</string>
+    <string name="buttonSelectPhoto">Pilih Foto</string>
+    <string name="buttonTakePhoto">Mulai Kamera</string>
+    <string name="buttonDiagnose">Detect</string>
+    <string name="defaultImage">Gambar default disetel sekarang...</string>
+    <string name="descriptionImage">Lihat untuk menampilkan gambar</string>
+    <string name="scanner_real_time">scannerRealTime</string>
+    <string name="Panduan">Panduan</string>
+    <string name="Setting">Setting</string>
+    <string name="Keluar">Keluar</string>
+    <string name="ambil_kamera">Ambil Kamera</string>
+    <string name="galeri">Galeri HP</string>
+    <string name="scaner">Scan Kamera</string>
+    <string name="scanner">Scan Kamera</string>
+    <string name="camera">kamera</string>
+    <string name="thank_you">Bahasa</string>
+    <string name="pilih_bahasa">Pilih Bahasa</string>
+    <string name="pilih">Pilih</string>
+    <string name="terdeteksi_penyakit_kulit">Terdeteksi Penyakit Kulit Melanoma</string>
+    <string name="kulit_normal">Kulit Normal</string>
+    <string name="terdeteksi">Terdeteksi</string>
+    <string name="ambil_kamera_g">"Fitur ini berguna untuk anda bilang ingin mengambil foto sample kulit yang dicurigai terkena kanker melanoma menggunakan kamera secara lansung. Jika aplikasi mendeteksi kurang dari 50% terkena kanker melanoma anda bisa scan sampai 3 kali untuk lebih pasti, dan itu pun juga untuk kulit yang terdeteksi normal dibawah 50%. "</string>
+    <string name="galeri_g">Fitur ini berguna untuk anda bilang ingin mengambil foto sample kulit yang dicurigai terkena kanker melanoma bila anda menyimpanya di galeri HP anda. Jika aplikasi mendeteksi kurang dari 50% terkena kanker melanoma anda bisa scan sampai 3 kali untuk lebih pasti, dan itu pun juga untuk kulit yang terdeteksi normal dibawah 50%.</string>
+    <string name="scan_g">Sebuah fitur yang digunakan untuk scanner secara lansung menggunakan kamera. Anda hanya perlu mengarahkan kamera ke sample kulit yang dicurigai terkena kanker melanoma.</string>
+    <string name="setting_g">Di pengaturan terdapat 2 fitur seperti dark mode untuk mengganti tema aplikasi dan penggantian bahasa untuk diubah menjadi bahasa yang ingin anda gunakan.</string>
+</resources>
